@@ -67,6 +67,6 @@ if st.checkbox("Show Actual vs Predicted CO2 Emissions"):
 
 mse = mean_squared_error(y_test, model.predict(X_test))
 r2 = r2_score(y_test, model.predict(X_test))
-st.write(f"Model Performance:")
+
 st.write(f"Mean Squared Error: {mse:.2f}")
 st.write(f"R² Score: {r2:.2f}")
